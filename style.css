@@ -737,11 +737,45 @@ input#subscribe-field {
 
 /* Custom */
 
-#nav-main {
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	margin: 0;
+	max-width: 100%;
+	width: 100%;
+}
+
+#gpa-header-wrap {
+	border-top: 5px solid #ded5b8;
+}
+
+#gpa-header-hold {
+	background: #344c4e;
+}
+
+#gpa-nav-main {
 	background: #2d2e2e; /* For browsers that do not support gradients */
 	background: -webkit-linear-gradient(#373737, #2d2e2e); /* For Safari 5.1 to 6.0 */
 	background: -o-linear-gradient(#373737, #2d2e2e); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(#373737, #2d2e2e); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(#373737, #2d2e2e); /* Standard syntax */
-	position: absolute;
+	border-bottom: 5px solid #ded5b8;
+    box-shadow: 0px 15px 20px #a4a8a8;
+}
+
+#gpa-nav-main li > a {
+	color: #fff;
+}
+
+.site-inner {
+	padding: 10px 0;
+}
+
+.site-inner .container {
+	display: block;
+	margin: auto;
+	width: 90%;
 }

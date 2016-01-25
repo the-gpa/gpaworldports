@@ -1,4 +1,14 @@
-  <nav id="nav-main" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<div id="gpa-header-wrap">
+  <div id="gpa-header-hold" class="site-inner">
+    <div class="container">
+      <div class="pull-right">
+        <a>Language</a>
+      </div>
+    </div>
+  </div>
+    <nav id="gpa-nav-main" class="navbar navbar-inverse navbar-static-top" role="navigation">
+  <div class="site-inner">
+
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -30,4 +40,7 @@
       ?>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container -->
+    </div>
+
   </nav>
+</div>
