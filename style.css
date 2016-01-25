@@ -751,7 +751,7 @@ body {
 
 #gpa-header-wrap {
 	border-top: 5px solid #f3f2de;
-	margin-bottom: 60px;
+	margin-bottom: 40px;
 }
 
 #gpa-header-hold {
@@ -816,10 +816,15 @@ body {
 }
 
 .panel-grid {
-	padding: 25px 0;
+	padding: 10px 0;
     //box-shadow: 0 15px 20px -15px #a4a8a8;
+    margin-bottom: 0;
 }
 
+.widget-title {
+	font-size: 20px;
+	font-weight: bold;
+}
 footer {
 	background: #344c4e;
 	color: #fff;
@@ -841,4 +846,9 @@ footer {
 .sow-slider-base ul.sow-slider-images li.sow-slider-image > img, .sow-slider-base ul.sow-slider-images li.sow-slider-image .sow-slider-image-wrapper > img
 {
 	width: 80%;
+}
+
+hr {
+	margin-top: 5px;
+	margin-bottom: 15px;
 }
