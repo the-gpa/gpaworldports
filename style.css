@@ -9,7 +9,7 @@ License: GNU General Public License
 License URI: https://github.com/the-gpa/gpaworldports-child/blob/master/LICENSE
 Tags: white, light, gray, black, blue, two-columns, one-column, right-sidebar, left-sidebar, flexible-width, full-width-template, theme-options, custom-menu, threaded-comments, sticky-post,featured-image-header, flexible-header, translation-ready, responsive-layout, fluid-layout
 
-Template: mobile
+Template: omega
 */
 
 
@@ -22,7 +22,6 @@ Defaults
 
 body {
 	padding-top: 30px;
-	background: #000;
 }
 
 ::-moz-selection {
