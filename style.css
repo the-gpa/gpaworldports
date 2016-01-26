@@ -766,7 +766,7 @@ body {
 	background: linear-gradient(#373737, #2d2e2e); /* Standard syntax */
 	border-bottom: 5px solid #f3f2de;
     box-shadow: 0px 15px 20px #a4a8a8;
-    padding-left: 90px;
+    padding-left: 75px;
 }
 .navbar-inverse .navbar-nav>li>a {
 	color: #fff;
@@ -777,12 +777,12 @@ body {
 	text-decoration: underline;
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
-	background: #f3f2de;
-	background: -webkit-linear-gradient(#f3f3ec, #fff2de); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#f3f3ec, #fff2de); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#f3f3ec, #fff2de); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(#f3f3ec, #fff2de); /* Standard syntax */
-	color: #2d2e2e;	
+	background: #344c4e;
+	background: -webkit-linear-gradient(#344c4e, #253638); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#344c4e, #253638); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#344c4e, #253638); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#344c4e, #253638); /* Standard syntax */
+	color: #fff;	
 	padding-left: 25px;
 	padding-right: 25px;
 	text-shadow: 0px 1px #666;
@@ -810,9 +810,10 @@ body {
 #logo {
 	position: absolute;
 	left: 5%;
+	top: 0;
 	z-index: 20000;
 	height: 120px;
-    box-shadow: 2px 2px 5px #555;
+    box-shadow: 2px 2px 5px -2px #555;
 }
 
 .panel-grid {
@@ -849,10 +850,7 @@ footer {
 	margin-left: -3000px;
 	box-shadow: inset 0 20px 40px -20px #d7e3e9;
 }
-.sow-slider-base ul.sow-slider-images li.sow-slider-image > img, .sow-slider-base ul.sow-slider-images li.sow-slider-image .sow-slider-image-wrapper > img
-{
-	width: 80%;
-}
+
 
 hr {
 	margin-top: 4px;
