@@ -188,6 +188,7 @@ textarea {
 	border: 1px solid #ddd;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 14px;
+	font-weight: 800;
 	padding: 16px;
 	max-width: 100%;
 }
@@ -347,7 +348,7 @@ img.alignnone {
 
 img.alignleft,
 .wp-caption.alignleft {
-	margin: 0 24px 24px 0;
+	margin: 0 12px 12px 0;
 }
 
 .wp-caption {
@@ -639,6 +640,35 @@ li.comment ol {
 	width: 100%;
 }
 
+/* News Block
+--------------------------------------------- */
+
+.newsblock {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 800;
+	width: 750px;
+	
+}
+
+.newsblock h3 {
+	font-size: 26px;
+	front-weight: 800; 
+}
+
+.newsblock ul {
+	list-style-type:circle;
+	font-size: 16px;
+}
+.newsblock ol {
+	list-style-type:circle;
+}
+
+.newsblock a {
+	color: #c02c28;
+	text-decoration: none;
+}
+
 /*
 Sidebars
 ---------------------------------------------------------------------------------------------------- */
@@ -750,7 +780,7 @@ body {
 }
 
 #gpa-header-wrap {
-	border-top: 5px solid #f3f2de;
+	border-top: 5px solid #fff;
 	margin-bottom: 40px;
 }
 
@@ -764,9 +794,9 @@ body {
 	background: -o-linear-gradient(#373737, #2d2e2e); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(#373737, #2d2e2e); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(#373737, #2d2e2e); /* Standard syntax */
-	border-bottom: 5px solid #f3f2de;
+	border-bottom: 5px solid #fff;
     box-shadow: 0px 15px 20px #a4a8a8;
-    padding-left: 75px;
+    padding-left: 120px;
 }
 .navbar-inverse .navbar-nav>li>a {
 	color: #fff;
@@ -817,7 +847,7 @@ body {
 }
 
 .panel-grid {
-	padding: 10px 0;
+	padding: 0 0;
     //box-shadow: 0 15px 20px -15px #a4a8a8;
     margin-bottom: 0;
 }
@@ -825,6 +855,7 @@ body {
 .widget-title {
 	font-size: 20px;
 	font-weight: bold;
+	display:block;
 }
 footer {
 	background: #344c4e;
@@ -855,4 +886,17 @@ footer {
 hr {
 	margin-top: 4px;
 	margin-bottom: 9px;
+}
+
+.slideshow-widget slideshow_description_box slideshow_transparent {
+	display: none;
+}
+.slideshow-widget slideshow_title {
+	display: none;
+}
+.slideshow-widget .widget-title {
+	display: none;
+}
+.slideshow_container_style-light .slideshow_description_box div {
+	display: none;
 }
