@@ -1,5 +1,5 @@
 <div id="gpa-header-wrap">
-	<a href="/"><img id="logo" src="/wp-content/uploads/2016/01/gpalogo.jpg"></a>
+	<a href="<?php get_site_url() ?>"><img id="logo" src="<?php get_site_url() ?>wp-content/uploads/2016/01/gpalogo.jpg"></a>
 	<div class="site-inner" id="gpa-header-hold">
 		<div class="container">
 			<div class="pull-right">
